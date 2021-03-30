@@ -6,7 +6,7 @@ chrome_options = Options()
 chrome_options.add_argument("--incognito")
 chrome_options.add_argument("--window-size=1420x780")
 
-driver = webdriver.Chrome(options=chrome_options, executable_path="/Users/devindyson/Desktop/chromedriver")
+driver = webdriver.Chrome(options=chrome_options, executable_path="/Users/devindyson/Desktop/scripts/chromedriver")
 
 url = "https://news.ycombinator.com/"
 

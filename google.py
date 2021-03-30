@@ -6,7 +6,7 @@ import time
 chrome_options = Options()
 chrome_options.add_argument("--incognito")
 
-driver = webdriver.Chrome(options=chrome_options, executable_path="/Users/devindyson/Desktop/chromedriver")
+driver = webdriver.Chrome(options=chrome_options, executable_path="/Users/devindyson/Desktop/scripts/chromedriver")
 
 url = "http://www.google.com"
 

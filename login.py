@@ -12,7 +12,7 @@ chrome_options.add_argument("--incognito")
 # prefs={"profile.managed_default_content_settings.images": 2, "disk-cache-size": 4096}
 # chrome_options.add_experimental_option('prefs', prefs)
 
-driver = webdriver.Chrome(options=chrome_options, executable_path="/Users/devindyson/Desktop/chromedriver")
+driver = webdriver.Chrome(options=chrome_options, executable_path="/Users/devindyson/Desktop/scripts/chromedriver")
 # driver.get("http://whatismyipaddress.com")
 
 url = "https://twitter.com/login"
