@@ -23,3 +23,6 @@ scores = [el.text for el in elements]
 
 elements = driver.find_elements_by_css_selector(".sitebit a")
 sites = [el.get_attribute("href") for el in elements]
+
+time.sleep(5)
+driver.close()
